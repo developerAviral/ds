@@ -2,7 +2,7 @@ package sorting.cyclicsort;
 
 public class MissingNumber {
 
-    public int getMissingNumber(int[] arr){
+    public int get(int[] arr){
         int i = 0;
         while(i < arr.length){
             int correct = arr[i];

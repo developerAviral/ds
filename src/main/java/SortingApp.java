@@ -1,14 +1,11 @@
-import sorting.InsertionSort;
-import sorting.SelectionSort;
+import sorting.cyclicsort.CyclicSort;
+import sorting.cyclicsort.MissingNumber;
 
 public class SortingApp {
     public static void main(String[] args) {
-        int [] arr = new int[] {34,2,122,3,45,32,1232,1,2};
-        InsertionSort insertionSort = new InsertionSort();
-        insertionSort.sort(arr);
+        int [] arr = new int[] {0,4,5,1,3};
+        MissingNumber missingNumber = new MissingNumber();
+        System.out.println(missingNumber.getMissingNumber(arr));
 
-        for(int i : arr){
-            System.out.println(i);
-        }
     }
 }

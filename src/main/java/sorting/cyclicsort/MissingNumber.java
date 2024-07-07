@@ -6,7 +6,7 @@ public class MissingNumber {
         int i = 0;
         while(i < arr.length){
             int correct = arr[i];
-           if(arr[i] < arr.length && arr[i] != arr[correct]){
+           if(arr[i] != arr[correct]){
                swap(arr, i, correct);
            }
            else{

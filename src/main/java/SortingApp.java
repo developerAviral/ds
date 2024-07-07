@@ -1,11 +1,9 @@
-import sorting.cyclicsort.AllMissingNumber;
-import sorting.cyclicsort.CyclicSort;
-import sorting.cyclicsort.MissingNumber;
+import sorting.cyclicsort.*;
 
 public class SortingApp {
     public static void main(String[] args) {
-        int [] arr = new int[] {4,5,1,3,1,1,1};
-        AllMissingNumber missingNumber = new AllMissingNumber();
+        int [] arr = new int[] {4,5,3,3,2,1,1};
+        AllDuplicateNumbers missingNumber = new AllDuplicateNumbers();
         System.out.println(missingNumber.get(arr));
 
     }

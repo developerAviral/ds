@@ -10,7 +10,7 @@ public class AllMissingNumber {
 
         while(i < arr.length){
             int correctIndex = arr[i];
-            if(arr[i] != arr[correctIndex]){
+            if(arr[i] < arr.length && arr[i] != arr[correctIndex]){
                 swap(arr,i, correctIndex);
             }
             else{

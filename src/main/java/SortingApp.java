@@ -2,9 +2,8 @@ import sorting.cyclicsort.*;
 
 public class SortingApp {
     public static void main(String[] args) {
-        int [] arr = new int[] {4,5,3,3,2,1,1};
-        AllDuplicateNumbers missingNumber = new AllDuplicateNumbers();
-        System.out.println(missingNumber.get(arr));
-
+        int [] arr = new int[] {1,3,-1,4};
+        FirstPositiveMissing missingNumber = new FirstPositiveMissing();
+        System.out.print(missingNumber.get(arr));
     }
 }
